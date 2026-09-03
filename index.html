@@ -3,95 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SmartAccounts - Privacy Policy</title>
-    <meta name="description" content="Privacy Policy for SmartAccounts - Customer Accounts, Ledger & Management">
+
+    <title>Privacy Policy - SmartAccounts</title>
+
+    <meta
+        name="description"
+        content="Privacy Policy for SmartAccounts by Faisal PSP Labs."
+    >
+
     <style>
+        :root {
+            --bg: #f6f7f9;
+            --card: #ffffff;
+            --text: #202124;
+            --muted: #5f6368;
+            --border: #e1e4e8;
+            --accent: #1a73e8;
+            --danger: #b3261e;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.7;
             margin: 0;
             padding: 0;
-            background: #f5f7fa;
-            color: #222;
+            background: var(--bg);
+            color: var(--text);
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+            line-height: 1.65;
         }
 
         .container {
-            max-width: 900px;
+            width: min(900px, calc(100% - 32px));
             margin: 40px auto;
-            padding: 35px;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
         }
 
-        h1 {
-            margin-top: 0;
-            color: #1f2937;
+        .header,
+        .section,
+        .footer {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+        }
+
+        .header {
+            padding: 32px;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            margin: 0 0 8px;
+            font-size: 32px;
+            line-height: 1.2;
+        }
+
+        .header .subtitle {
+            margin: 0 0 18px;
+            color: var(--muted);
+            font-size: 17px;
+        }
+
+        .updated {
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .section {
+            padding: 28px 32px;
+            margin-bottom: 16px;
         }
 
         h2 {
-            margin-top: 30px;
-            color: #1f2937;
+            margin-top: 0;
+            margin-bottom: 14px;
+            font-size: 22px;
+            line-height: 1.3;
         }
 
         h3 {
             margin-top: 22px;
-            color: #374151;
+            margin-bottom: 8px;
+            font-size: 17px;
         }
 
-        p, li {
-            color: #374151;
+        p {
+            margin: 0 0 14px;
         }
 
         ul {
-            padding-left: 25px;
+            margin-top: 8px;
+            margin-bottom: 16px;
+            padding-left: 24px;
         }
 
-        .brand {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .brand-name {
-            font-size: 28px;
-            font-weight: bold;
-            color: #111827;
-        }
-
-        .tagline {
-            font-size: 15px;
-            color: #6b7280;
-        }
-
-        .updated {
-            font-size: 14px;
-            color: #6b7280;
-        }
-
-        .notice {
-            background: #f3f4f6;
-            padding: 16px;
-            border-radius: 8px;
-            margin: 20px 0;
+        li {
+            margin-bottom: 7px;
         }
 
         a {
-            color: #2563eb;
+            color: var(--accent);
+            text-decoration: none;
         }
 
-        footer {
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #e5e7eb;
-            text-align: center;
-            color: #6b7280;
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .notice {
+            border-left: 4px solid var(--accent);
+            padding: 14px 16px;
+            background: #f1f6ff;
+            border-radius: 8px;
+            margin: 16px 0;
+        }
+
+        .deletion {
+            border-left-color: var(--danger);
+            background: #fff5f4;
+        }
+
+        .footer {
+            padding: 24px 32px;
+            margin-top: 20px;
+            color: var(--muted);
             font-size: 14px;
+            text-align: center;
         }
 
         @media (max-width: 600px) {
             .container {
-                margin: 15px;
-                padding: 22px;
+                width: min(100% - 20px, 900px);
+                margin: 16px auto;
+            }
+
+            .header,
+            .section,
+            .footer {
+                padding: 22px 20px;
+                border-radius: 12px;
+            }
+
+            .header h1 {
+                font-size: 27px;
+            }
+
+            h2 {
+                font-size: 20px;
             }
         }
     </style>
@@ -99,276 +165,546 @@
 
 <body>
 
-<div class="container">
+<main class="container">
 
-    <div class="brand">
-        <div class="brand-name">SmartAccounts</div>
-        <div class="tagline">Customer Accounts, Ledger &amp; Management</div>
-        <div class="tagline">Faisal PSP Labs</div>
-    </div>
+    <header class="header">
+        <h1>SmartAccounts</h1>
+        <p class="subtitle">
+            Customer Accounts, Ledger &amp; Management
+        </p>
 
-    <h1>Privacy Policy</h1>
+        <p>
+            <strong>Developer:</strong> Faisal PSP Labs
+        </p>
 
-    <p class="updated"><strong>Last Updated:</strong> August 2026</p>
+        <p class="updated">
+            <strong>Last Updated:</strong> September 2026
+        </p>
+    </header>
 
-    <p>
-        Faisal PSP Labs ("we", "us", or "our") developed and operates
-        <strong>SmartAccounts</strong>, an offline-first Android application
-        designed for customer accounts, ledger and business record management.
-    </p>
 
-    <p>
-        This Privacy Policy explains what information SmartAccounts handles,
-        how that information is stored and used, and how optional backup
-        services work.
-    </p>
+    <section class="section">
+        <h2>Privacy Policy</h2>
 
-    <h2>1. Information We Handle</h2>
+        <p>
+            Faisal PSP Labs ("we", "us", or "our") develops and operates
+            <strong>SmartAccounts</strong>, an Android application designed
+            for customer account, ledger, transaction, and business record
+            management.
+        </p>
 
-    <p>
-        Depending on how the application is used, SmartAccounts may handle
-        the following information:
-    </p>
+        <p>
+            This Privacy Policy explains what information SmartAccounts
+            handles, how that information is used and stored, when information
+            may be transmitted to our service providers, how backups work,
+            and how users can request account and data deletion.
+        </p>
 
-    <ul>
-        <li>Customer names and account information.</li>
-        <li>Ledger and transaction records.</li>
-        <li>Business and account management information.</li>
-        <li>User account information required for application access.</li>
-        <li>Contact information such as mobile number, WhatsApp number and email address when provided.</li>
-        <li>Country, province, city and address information when provided.</li>
-        <li>Application settings and preferences.</li>
-        <li>Backup information when the user chooses to create or restore a backup.</li>
-    </ul>
+        <p>
+            By using SmartAccounts, users should review this Privacy Policy
+            together with the disclosures presented inside the application.
+        </p>
+    </section>
 
-    <h2>2. Local Storage and Offline-First Operation</h2>
 
-    <p>
-        SmartAccounts is designed as an <strong>offline-first</strong>
-        application. Customer accounts, ledger records, transactions and
-        other business records are primarily stored locally on the user's
-        Android device using the application's local database.
-    </p>
+    <section class="section">
+        <h2>1. Information We Handle</h2>
 
-    <p>
-        SmartAccounts does not automatically upload customer accounts,
-        ledgers or transactions to our servers merely because the device
-        is connected to the Internet.
-    </p>
+        <p>
+            Depending on the features used and information entered by the
+            user, SmartAccounts may handle the following categories of
+            information:
+        </p>
 
-    <h2>3. Supabase Authentication and User Management</h2>
+        <ul>
+            <li>
+                <strong>Account information:</strong>
+                information used to create and manage a SmartAccounts user
+                account, such as email address, account identifier, role,
+                account status, and related profile information.
+            </li>
 
-    <p>
-        SmartAccounts uses Supabase for application authentication and
-        user-management functionality.
-    </p>
+            <li>
+                <strong>Customer and business information:</strong>
+                customer names, business or shop information, addresses,
+                city or province information, mobile or WhatsApp numbers,
+                and other customer information entered by the user.
+            </li>
 
-    <p>
-        Information required for authentication and user management may
-        include account identifiers, email address, phone number, role,
-        account status and related profile information.
-    </p>
+            <li>
+                <strong>Financial and accounting information:</strong>
+                transaction amounts, sales and recovery records, balances,
+                credit limits, discounts, payment methods, transaction dates,
+                notes, and related ledger information entered by the user.
+            </li>
 
-    <p>
-        Supabase is used for authentication and authorized user-management
-        operations. Customer accounts, ledger records and transaction
-        data are not automatically synchronized to Supabase as part of
-        normal business operations.
-    </p>
+            <li>
+                <strong>Application information:</strong>
+                application settings, preferences, permissions, and other
+                information required to operate the application.
+            </li>
 
-    <h2>4. Google Drive Backup</h2>
+            <li>
+                <strong>Backup information:</strong>
+                application records contained in a backup when the user
+                explicitly chooses to create, export, restore, or otherwise
+                use a backup feature.
+            </li>
+        </ul>
 
-    <p>
-        SmartAccounts may provide an <strong>optional Google Drive Backup</strong>
-        feature. This feature is used only when the user chooses to connect
-        their Google account and create or restore a backup.
-    </p>
+        <p>
+            SmartAccounts does not intentionally collect contacts, photos,
+            audio recordings, location information, SMS messages, call logs,
+            health information, or calendar information for its core
+            functionality.
+        </p>
+    </section>
 
-    <p>
-        When the user connects Google Drive, Google authorization is used
-        to allow SmartAccounts to access the application's private backup
-        storage area in the user's Google Drive.
-    </p>
 
-    <p>
-        SmartAccounts uses the Google Drive
-        <strong>appDataFolder</strong> storage area for application backups.
-        This area is intended for application-specific data and is separate
-        from the user's normal visible Drive files.
-    </p>
+    <section class="section">
+        <h2>2. Local and Offline-First Storage</h2>
 
-    <p>
-        Google Drive access is not used to automatically synchronize
-        customer accounts, ledgers or transactions continuously.
-        It is used for the user's optional backup and restore operations.
-    </p>
+        <p>
+            SmartAccounts is designed as an
+            <strong>offline-first</strong> application.
+        </p>
 
-    <h2>5. Google Account Information</h2>
+        <p>
+            Customer accounts, ledger records, transactions, and other
+            business records are primarily stored in the application's local
+            database on the user's Android device so that core accounting
+            functionality can continue to operate offline.
+        </p>
 
-    <p>
-        When Google Drive Backup is connected, SmartAccounts may display
-        the Google account selected by the user so that the user can
-        identify which Google account is connected for backup purposes.
-    </p>
+        <p>
+            Internet connectivity is not required for every normal accounting
+            operation. When a feature requires cloud connectivity, the
+            application communicates with its configured cloud services.
+        </p>
+    </section>
 
-    <p>
-        SmartAccounts does not request access to the user's Gmail messages,
-        Google Contacts, Google Photos or unrelated Google Drive files.
-    </p>
 
-    <h2>6. Backup Security</h2>
+    <section class="section">
+        <h2>3. Supabase Authentication and Cloud Services</h2>
 
-    <p>
-        SmartAccounts uses encryption and password protection for application
-        backup data before it is stored or transferred through supported
-        backup mechanisms.
-    </p>
+        <p>
+            SmartAccounts uses
+            <strong>Supabase</strong> for authentication, user management,
+            and authorized cloud operations.
+        </p>
 
-    <p>
-        Backup files are intended to contain application data required to
-        restore the user's SmartAccounts records. Authentication credentials,
-        raw passwords, session tokens and similar security secrets are not
-        included in the backup payload.
-    </p>
+        <p>
+            Authentication-related information may include the user's email
+            address, account identifier, role, account status, and related
+            profile information.
+        </p>
 
-    <p>
-        Users should keep their backup password secure. If a backup password
-        is lost, the encrypted backup may not be recoverable.
-    </p>
+        <p>
+            When authorized cloud synchronization is used, relevant
+            SmartAccounts business records may be transmitted to and stored
+            in the configured Supabase service so that authorized users can
+            use supported cloud functionality.
+        </p>
 
-    <h2>7. Manual Backup</h2>
+        <p>
+            Cloud synchronization is performed as part of supported,
+            authorized application functionality. It is not a background
+            advertising or behavioral-tracking service.
+        </p>
 
-    <p>
-        SmartAccounts provides a manual backup option that allows the user
-        to create a backup file and save or share it using Android's available
-        file-sharing mechanisms.
-    </p>
+        <p>
+            Supabase processes information on behalf of the application
+            developer according to the services configured for SmartAccounts.
+        </p>
+    </section>
 
-    <p>
-        Manual backup files are created at the user's request. SmartAccounts
-        does not automatically send manual backup files to third parties.
-    </p>
 
-    <h2>8. Restore</h2>
+    <section class="section">
+        <h2>4. Authentication Credentials and Security Tokens</h2>
 
-    <p>
-        When a user chooses to restore a backup, SmartAccounts validates the
-        backup and, where required, requests the backup password before
-        restoring supported records to the local application database.
-    </p>
+        <p>
+            When a user signs in or creates an account, the authentication
+            password is transmitted securely to the configured authentication
+            service for account authentication. SmartAccounts does not store
+            the user's raw account password in its local application database.
+        </p>
 
-    <h2>9. Data Sharing</h2>
+        <p>
+            SmartAccounts may receive authentication session information,
+            including access and refresh tokens, from its authentication
+            service.
+        </p>
 
-    <p>
-        We do not sell users' personal information.
-    </p>
+        <p>
+            Supported authentication tokens stored locally by the application
+            are protected using Android Keystore-backed encryption. These
+            security tokens are not intentionally included in application
+            backup payloads.
+        </p>
 
-    <p>
-        SmartAccounts does not use customer ledger data for advertising,
-        behavioral tracking or targeted marketing.
-    </p>
+        <p>
+            SmartAccounts may also use a local application PIN for local
+            authentication. The PIN is processed locally using a one-way
+            password-based hashing mechanism and is not intentionally
+            transmitted to the cloud service.
+        </p>
+    </section>
 
-    <p>
-        Information may be processed by service providers used for
-        authentication or optional backup functionality, such as Supabase
-        for authentication/user management and Google for Google Drive
-        authorization and storage when the user chooses to use those
-        features.
-    </p>
 
-    <h2>10. Advertising and Analytics</h2>
+    <section class="section">
+        <h2>5. Backup and Restore</h2>
 
-    <p>
-        SmartAccounts is not designed to use customer ledger information
-        for advertising or analytics.
-    </p>
+        <p>
+            SmartAccounts supports backup and restore functionality for
+            protecting and recovering application records.
+        </p>
 
-    <p>
-        The application does not intentionally collect customer business
-        records for advertising or tracking purposes.
-    </p>
+        <p>
+            Backup operations are initiated by the user or by supported
+            application functionality. Backup data may contain application
+            records necessary to restore SmartAccounts data.
+        </p>
 
-    <h2>11. Data Retention and Deletion</h2>
+        <p>
+            Authentication credentials, raw account passwords, local PIN
+            values, and authentication session tokens are not intentionally
+            included in application backup payloads.
+        </p>
 
-    <p>
-        Locally stored customer accounts, ledgers, transactions and settings
-        remain on the user's device until they are deleted through the
-        application, the application's data is cleared, or the application
-        is uninstalled, subject to Android device behavior.
-    </p>
+        <p>
+            Supported backup data is protected using encryption and
+            authentication mechanisms appropriate to the backup feature.
+        </p>
 
-    <p>
-        Optional Google Drive backups remain in the user's Google Drive
-        until the user deletes them or removes them through supported
-        application/account controls.
-    </p>
+        <p>
+            Users are responsible for protecting any backup files and backup
+            passwords they create or save outside the application.
+        </p>
+    </section>
 
-    <h2>12. User Control</h2>
 
-    <p>
-        Users control whether they create manual backups or connect Google
-        Drive for optional backup and restore.
-    </p>
+    <section class="section">
+        <h2>6. Manual Backup Files</h2>
 
-    <p>
-        Users may choose not to connect Google Drive and may continue using
-        SmartAccounts with its local/offline functionality.
-    </p>
+        <p>
+            SmartAccounts may allow a user to create a manual backup file and
+            save or share that file using Android's available file-selection
+            or sharing mechanisms.
+        </p>
 
-    <h2>13. Children's Privacy</h2>
+        <p>
+            A manual backup file is created as a result of a user action.
+            Once a user exports or shares a file using Android or another
+            application, that file may be handled according to the privacy
+            practices of the service or application selected by the user.
+        </p>
 
-    <p>
-        SmartAccounts is intended for business and account-management use
-        and is not directed specifically to children.
-    </p>
+        <p>
+            SmartAccounts does not intentionally use manual backup files for
+            advertising or behavioral profiling.
+        </p>
+    </section>
 
-    <p>
-        We do not knowingly collect personal information from children for
-        advertising or profiling purposes.
-    </p>
 
-    <h2>14. Security</h2>
+    <section class="section">
+        <h2>7. Restore</h2>
 
-    <p>
-        We take reasonable technical measures to protect information handled
-        by SmartAccounts. These measures include local data protection,
-        authenticated access, encryption of supported backups and access
-        controls appropriate to the application's functionality.
-    </p>
+        <p>
+            When a user chooses to restore a backup, SmartAccounts validates
+            the backup and, where required, requests the backup password before
+            restoring supported records to the local application database.
+        </p>
 
-    <p>
-        However, no electronic storage or transmission method can be
-        guaranteed to be completely secure.
-    </p>
+        <p>
+            Restoring a backup may replace or update local application records
+            according to the restore operation selected by the user.
+        </p>
+    </section>
 
-    <h2>15. Changes to This Privacy Policy</h2>
 
-    <p>
-        We may update this Privacy Policy from time to time to reflect
-        changes to SmartAccounts, its features or applicable requirements.
-        The updated policy will be published at this same location with
-        an updated "Last Updated" date.
-    </p>
+    <section class="section">
+        <h2>8. How We Use Information</h2>
 
-    <h2>16. Contact Us</h2>
+        <p>
+            Information handled by SmartAccounts is used for purposes such as:
+        </p>
 
-    <p>
-        If you have questions about this Privacy Policy or SmartAccounts,
-        please contact:
-    </p>
+        <ul>
+            <li>Creating and managing SmartAccounts user accounts.</li>
+            <li>Authenticating authorized users.</li>
+            <li>Providing customer and business account management.</li>
+            <li>Recording and displaying ledger and transaction information.</li>
+            <li>Calculating and displaying supported accounting balances and summaries.</li>
+            <li>Providing authorized cloud synchronization functionality.</li>
+            <li>Creating and restoring user-requested backups.</li>
+            <li>Maintaining application security and access controls.</li>
+            <li>Processing account and data deletion requests.</li>
+        </ul>
 
-    <p>
-        <strong>Faisal PSP Labs</strong><br>
-        Email:
-        <a href="mailto:fslmknza@gmail.com">fslmknza@gmail.com</a>
-    </p>
+        <p>
+            SmartAccounts does not intentionally use customer ledger or
+            financial records for targeted advertising or behavioral
+            advertising.
+        </p>
+    </section>
 
-    <footer>
-        &copy; 2026 Faisal PSP Labs. All rights reserved.<br>
-        SmartAccounts - Customer Accounts, Ledger &amp; Management
+
+    <section class="section">
+        <h2>9. Data Sharing and Service Providers</h2>
+
+        <p>
+            We do not sell users' personal information.
+        </p>
+
+        <p>
+            Information may be processed by service providers when required
+            to provide SmartAccounts functionality. These providers may
+            process information on our behalf rather than using it for their
+            own independent advertising purposes.
+        </p>
+
+        <p>
+            <strong>Supabase</strong> is used for authentication, user
+            management, and supported authorized cloud operations.
+        </p>
+
+        <p>
+            Android system services and user-selected applications may also
+            handle information when the user explicitly chooses Android
+            features such as file selection or file sharing.
+        </p>
+
+        <p>
+            We do not intentionally sell customer records, ledger information,
+            transaction records, or financial information to third parties.
+        </p>
+    </section>
+
+
+    <section class="section">
+        <h2>10. Advertising and Analytics</h2>
+
+        <p>
+            SmartAccounts is not designed to use customer business or ledger
+            information for targeted advertising.
+        </p>
+
+        <p>
+            SmartAccounts does not intentionally collect customer business
+            records for advertising or behavioral profiling.
+        </p>
+
+        <p>
+            If this practice changes in a future version, this Privacy Policy
+            and the applicable Google Play disclosures will be updated as
+            required.
+        </p>
+    </section>
+
+
+    <section class="section">
+        <h2>11. Data Retention</h2>
+
+        <p>
+            Local customer accounts, ledger records, transactions, and
+            application settings generally remain on the user's device until
+            they are deleted through the application, the application's data
+            is cleared, or the application is uninstalled, subject to Android
+            device behavior and any user-created copies or backups.
+        </p>
+
+        <p>
+            Information stored through authorized cloud functionality may
+            remain in the configured cloud service while the user's account
+            and supported cloud functionality are active, subject to deletion
+            requests and any limited retention that may be required for
+            legitimate security, fraud-prevention, legal, regulatory, or
+            accounting purposes.
+        </p>
+
+        <p>
+            User-created backup files stored outside SmartAccounts may remain
+            available until the user deletes them from the location where they
+            were saved.
+        </p>
+    </section>
+
+
+    <section class="section deletion">
+        <h2>12. Account and Data Deletion</h2>
+
+        <p>
+            SmartAccounts provides an in-app account deletion option for
+            eligible user accounts. The deletion process may require
+            re-authentication to help prevent unauthorized deletion.
+        </p>
+
+        <p>
+            When an account deletion request is accepted, SmartAccounts is
+            designed to remove the user's local account credentials, local
+            profile information, local authentication/session information,
+            and the applicable SmartAccounts account/profile information
+            maintained through its cloud services.
+        </p>
+
+        <p>
+            Users may also request deletion from outside the application,
+            including if they no longer have access to the installed app.
+        </p>
+
+        <div class="notice deletion">
+            <strong>To request account and associated data deletion:</strong>
+            send an email to
+            <a href="mailto:fslmknza@gmail.com">
+                fslmknza@gmail.com
+            </a>
+            with the subject
+            <strong>SmartAccounts Account Deletion Request</strong>.
+        </div>
+
+        <p>
+            Please do not send your password, PIN, authentication tokens, or
+            other security credentials by email.
+        </p>
+
+        <p>
+            We will use the information necessary to identify and process the
+            deletion request. Where information must be retained for a
+            legitimate legal, regulatory, security, fraud-prevention, or
+            accounting reason, that information may be retained for the
+            applicable period and handled according to the applicable
+            requirements.
+        </p>
+
+        <p>
+            Deleting an account does not automatically delete copies of
+            information that a user has independently exported, shared, or
+            stored outside SmartAccounts, such as manually saved backup files.
+            Users should separately delete those copies when they are no
+            longer needed.
+        </p>
+    </section>
+
+
+    <section class="section">
+        <h2>13. Children's Privacy</h2>
+
+        <p>
+            SmartAccounts is intended for business, customer-account, ledger,
+            and financial record-management use and is not directed specifically
+            to children.
+        </p>
+
+        <p>
+            We do not knowingly design SmartAccounts to collect personal
+            information from children for advertising or profiling.
+        </p>
+    </section>
+
+
+    <section class="section">
+        <h2>14. Security</h2>
+
+        <p>
+            We take reasonable technical and organizational measures to
+            protect information handled by SmartAccounts.
+        </p>
+
+        <p>
+            Depending on the feature, these measures include:
+        </p>
+
+        <ul>
+            <li>Authenticated access to supported account functionality.</li>
+            <li>Encrypted network communication for supported cloud services.</li>
+            <li>Android Keystore-backed protection for locally stored authentication tokens.</li>
+            <li>One-way hashing and salting for the local application PIN.</li>
+            <li>Encryption and authentication for supported backup data.</li>
+            <li>Access controls and role-based application permissions.</li>
+            <li>Exclusion of authentication tokens and credentials from supported application backup payloads.</li>
+        </ul>
+
+        <p>
+            No method of electronic storage or transmission can be guaranteed
+            to be completely secure. Users should also protect their Android
+            device, account credentials, PIN, and any exported backup files.
+        </p>
+    </section>
+
+
+    <section class="section">
+        <h2>15. Your Choices and Controls</h2>
+
+        <p>
+            Depending on the feature and account status, users can:
+        </p>
+
+        <ul>
+            <li>Use supported SmartAccounts functionality offline.</li>
+            <li>Choose when to create or restore supported backups.</li>
+            <li>Control information they enter into customer and ledger records.</li>
+            <li>Use the application's account and security controls.</li>
+            <li>Request account and associated data deletion.</li>
+        </ul>
+
+        <p>
+            Some information is necessary for authentication, account
+            management, or core accounting functionality and may therefore be
+            required to provide the corresponding feature.
+        </p>
+    </section>
+
+
+    <section class="section">
+        <h2>16. Changes to This Privacy Policy</h2>
+
+        <p>
+            We may update this Privacy Policy from time to time to reflect
+            changes to SmartAccounts, its features, service providers,
+            applicable requirements, or our data practices.
+        </p>
+
+        <p>
+            When this policy is updated, the new version will be published at
+            this same location with an updated "Last Updated" date.
+        </p>
+    </section>
+
+
+    <section class="section">
+        <h2>17. Contact Us</h2>
+
+        <p>
+            If you have questions about this Privacy Policy, SmartAccounts,
+            account deletion, or data deletion, please contact:
+        </p>
+
+        <p>
+            <strong>Faisal PSP Labs</strong><br>
+            Email:
+            <a href="mailto:fslmknza@gmail.com">
+                fslmknza@gmail.com
+            </a>
+        </p>
+
+        <p>
+            For account deletion requests, please use the subject:
+            <strong>SmartAccounts Account Deletion Request</strong>
+        </p>
+    </section>
+
+
+    <footer class="footer">
+        <p>
+            &copy; 2026 Faisal PSP Labs. All rights reserved.
+        </p>
+
+        <p>
+            SmartAccounts &mdash; Customer Accounts, Ledger &amp; Management
+        </p>
     </footer>
 
-</div>
+</main>
 
 </body>
 </html>
